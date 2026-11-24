@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -173,3 +175,28 @@ header p {
         padding: 40px 30px;
     }
 }
+
+/* ===== TEMA NERO E ORO ===== */
+:root {
+    --nero: #0d0d0d;
+    --grafite: #1a1a1a;
+    --grafite-chiaro: #262626;
+    --oro: #d4af37;
+    --oro-chiaro: #f1d48b;
+    --testo: #f3eee0;
+}
+body { background-color: var(--nero); color: var(--testo); }
+header h1, .card h2 { font-family: "Cinzel", serif; color: var(--oro); }
+header p, .sottotitolo, .periodo, .switch { color: #a89f8a; }
+.switch i { color: var(--oro); }
+.card { background-color: var(--grafite); border: 1px solid #3a3220; box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); }
+.sconto span { background-color: var(--grafite-chiaro); color: var(--oro-chiaro); }
+.bottone { background-color: var(--oro); color: var(--nero); }
+.features .fa-check { color: var(--oro); }
+.features .fa-xmark { color: #6b6455; }
+.card-pro { background: linear-gradient(160deg, var(--oro-chiaro), var(--oro) 60%, #a8841f); color: var(--nero); }
+.card-pro h2 { color: var(--nero); }
+.card-pro .sottotitolo, .card-pro .periodo { color: #3a2f10; }
+.card-pro .sconto span { background-color: rgba(0, 0, 0, 0.15); color: var(--nero); }
+.card-pro .bottone { background-color: var(--nero); color: var(--oro); }
+.card-pro .features i { color: var(--nero); }
